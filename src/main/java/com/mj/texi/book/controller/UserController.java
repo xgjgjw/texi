@@ -22,6 +22,7 @@ public class UserController {
 	@RequestMapping("/")
     public String welcome(){
 		//
+		//
 		 return "main";
     }
 }
