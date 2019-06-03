@@ -1,6 +1,8 @@
 package com.mj.texi.book.entity;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
 	public  static final String Table = "user";
 	private String name;
 	private String sex;
